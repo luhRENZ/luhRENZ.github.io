@@ -15,7 +15,7 @@ body {
 } 
 
 #textColor{
-    color: orange;
+    color: white;
 }
 #loginDivText{
     color:lightgreen;
@@ -49,17 +49,28 @@ body {
         height: 30px;
         background-color: white;
         border-radius: 12px;
-        border-color: lightblue;
+        border-color: whitesmoke;
     }
+
+    #TechFor{
+        font-size: x-large;
+        color: white;
+        font-weight: bold;
+    }   
 
     #objTitle{
         font-size: larger;
-        color: royalblue;
+        color: white;
+    }
+
+    #objDes{
+        font-size: medium;
+        color: white;
     }
 
     header{
         text-align: center;
-        color: lightsalmon;
+        color: white;
         width: 100%;
         padding: 5px;
     }
@@ -71,16 +82,16 @@ body {
         padding: 10px;
         float: left;
         font-size: medium;
-        color:lightsalmon;
+        color:white;
     }
 
     footer{
         text-align: right;
         width: 100%;
         height: 10%;
-        background-color: yellowgreen;
+        background-color: yellowgreen
     }
     
     #contactText{
-        color:ghostwhite;
+        color:black;
     }
