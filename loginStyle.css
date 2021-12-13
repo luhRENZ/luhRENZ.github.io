@@ -1,0 +1,30 @@
+body {
+    background-color: linear-gradient(90deg, green, rgb(119, 0, 255));
+}
+
+.grovvy {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#loginTitleText{
+        color: green;
+        font-style:italic;
+        text-align:center;
+        text-transform:uppercase; 
+} 
+
+#loginDivText{
+    color:lightgreen;
+    font-weight: bolder;
+}
+
+.blink_me {
+    animation: blinker 4s linear infinite;
+    }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+    }   
